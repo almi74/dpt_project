@@ -1,0 +1,729 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    width:1200px;
+    margin: 0 auto;
+}
+header{
+    width:auto;
+    height:530px;
+    display:flex;
+    margin:0 auto;
+    color:rgb(17, 48, 107);
+    background: white url(Img/header_lac5.png) center top no-repeat;
+    font-family: 'Montserrat light';
+    text-align: center;
+}
+
+
+
+#logo{
+    width: 20%;
+    float:left;
+
+}
+.wrap{
+    width: auto;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    float:left;
+    list-style: none;
+    text-align:center;
+    align-items: center;
+    padding-top: 50px;
+    
+
+}
+
+.navbar{
+    list-style:none;
+    text-align: center;
+    justify-content: end;
+    display:flex;
+
+   
+}
+.navbar li {
+    text-align: center;
+    border-left: 1px solid #dbdbdb;
+    
+
+}
+.navbar a{
+    text-decoration: none;
+    color:ivory;
+    text-align: center; 
+    margin:0 1em;
+
+}
+.navbar a:hover{
+    color:rgb(7, 7, 54);
+}
+
+
+
+/*-- ACCUEIL --*/
+
+#accueil1{
+    width:100%;
+
+}
+#h1-accueil1{
+
+}
+#wrapper-accueil1{
+    width:100%;
+    display: grid; 
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:20px;
+    grid-auto-rows: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5em;
+}
+
+
+.card-accueil1{
+    display: inline-block;
+    position: relative;
+}
+/*
+.h3-card-accueil1 >h3{
+    background: transparent;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+    font-size: 1.2em;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: white;
+    width: 70%;
+}
+*/
+.a-card-accueil1{
+    text-decoration: none;
+    color:white;
+    position:absolute;
+    background: transparent;
+    z-index: 1;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 1.3em;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 80%;
+    color: white;
+    width: 70%;
+   
+}
+
+.a-card-accueil1 > strong{
+    font-weight:normal;
+}
+
+/*-- section2-accueil--*/
+#accueil2{
+    width:100%;
+    border-top:5em;
+    
+}
+#wrapper1-accueil2{
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    grid-gap:20px;
+    grid-auto-rows: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5em;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1em;
+
+}
+
+#img1-accueil2{
+    grid-column: 1;
+    grid-row: 1;
+    width:auto;
+}
+#img2-accueil2{
+    grid-column: 1;
+    grid-row: 2;
+    width:auto;
+}
+#art1-accueil2{
+    grid-column: 2/3;
+    grid-row: 1/3;
+
+}
+#wrapper2-accueil2{
+    width:100%;
+    display:grid;
+    grid-template-columns:30% 30%;
+    grid-gap:20px;
+    grid-auto-rows: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5em;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1em;
+
+}
+#art2-accueil2{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    
+    
+}
+
+#img3-accueil2{
+    grid-column: 3;
+    grid-row: 1/2;
+   
+}
+#img4-accueil2{
+    grid-column: 3;
+    grid-row: 2/3;
+   
+}
+
+
+#wrapper3-accueil2{
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    grid-gap:20px;
+    grid-auto-rows: auto;
+    justify-content:center;
+    text-align:justify;
+    margin-top: 5em;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1em;
+
+}
+
+#img5-accueil2{
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+#img6-accueil2{
+    grid-column: 1;
+    grid-row: 2;  
+    
+}
+#art3-accueil2{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    
+
+
+}
+/*-- END / ACCUEIL PAGE --*/
+
+
+
+/*-- A VOIR ABSOLUMENT --*/
+
+#tourism1{
+    width:auto;
+    
+}
+#h1-tourism1{
+    margin-top: 1em;
+    color: rgb(82, 92, 110);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    align-content: center;
+    font-size: 4em;
+
+}
+#intro-tourism1{
+    display:grid;
+    width:auto;
+    text-align: center;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5em;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: light;
+    text-decoration: none;
+}
+.link-tourism1{
+    width: 12em;
+    border: none;
+    height: 2em;
+    border-radius: 5px;
+    background-color: rgb(63, 76, 95);
+    color: rgb(145, 186, 246);
+    font-family: 'Monserrat',sans-serif;
+    font-weight: light;
+    font-size: 1.25em;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em 3em;
+}
+
+#button-left-tourism1{
+    grid-column: 1;
+    border: none;
+    height:30px;
+    border-radius: 5px;
+    background-color: rgb(63, 76, 95);
+    color:rgb(148,190,233);
+    font-family: 'Monserrat',sans-serif;
+    font-weight: light;
+    font-size: 1.2em;
+    justify-content: center;
+    text-decoration: none;
+    padding:1em 3em;
+}
+#button-middle-tourism1{
+    grid-column: 2;
+}
+#button-right-tourism1{
+    grid-column: 3;
+}
+
+#h2-tourism2{
+    margin-top: 3em;
+    color: rgb(8, 61, 114);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 350;
+    align-content: center;
+    font-size: 2em;
+}
+#wrapper1-tourism2{
+    width:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:20px;
+    grid-auto-rows: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5em;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1em;
+}
+.card-img figure {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.card-img figcaption {
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    width: auto;
+    height: 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.1em;
+    font-weight: light;
+    color: #fff;
+    
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+
+
+blockquote{
+    
+    margin: 0 18px;
+    padding: 0 10px;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+    color: #777;
+    border-left: 1px #dedede;
+    border-right: 1px #dedede;
+
+}
+blockquote p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*-- >FIN A VOIR ABSOLUMENT --*/
+
+/*-- FOIRES --*/
+#intro-foires{
+    margin:0 auto;
+    align-content: center;
+    justify-content: center;
+}
+#h1-foires{
+    margin-top: 1em;
+    color:rgb(82, 92, 110); 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    align-content: center;
+    font-size: 4em;  
+}
+
+#wrapper-intro-foires{
+    display: grid; 
+    font-size:18px;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:30px;
+    grid-auto-rows: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3em;
+    
+}
+
+#wrapper-intro-foires-left{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#wrapper-intro-foires-middle{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#wrapper-intro-foires-right{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.a-img-foires{
+      
+}
+
+
+
+.a-img-intro-foires{
+    justify-content: center;
+   
+}
+ 
+.a-txt-intro-foires{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:rgb(82, 92, 110); 
+    margin-bottom: 3em;
+    
+}
+  
+ 
+#txt-img1{
+   
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+#txt-img2{
+   
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+#txt-img3{
+    
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+   
+ 
+}
+.a-img-foires:hover .a-img-intro-foires{
+  
+}
+
+  
+img{
+    max-width:75%;
+    height:auto;
+    
+}
+a{
+    text-decoration:none;
+}
+.a-img-intro-foires{
+
+}
+
+.a-text-intro-foires{
+
+}
+/*-- END /wrapper intro foire*/
+
+
+/*--SECTION 1 - FOIRES--*/
+#section1-wrapper-foires{
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display:grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    grid-auto-rows: auto;
+    font-family: 'Monserrat', sans-serif;
+    justify-content: center;
+    padding: 0.2em;
+   
+    
+}
+#card-foires{
+    justify-content:center;
+   
+}
+.p-card-date{
+    font-size: 15px;
+    font-family: 'Source Sans 3';
+    font-weight: 400;
+
+}
+
+#h3-foires{
+    font-family:'Monserrat', sans-serif;
+    font-weight: 200;
+    color: rgb(65, 126, 180);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.p-card-lieu{
+    font-family:'Monserrat',sans-serif;
+    font-weight: 200;
+    color:rgb(82, 92, 110); 
+
+}
+.img-card-foires{
+    margin-bottom: 0.5em;
+}
+#card-foires-tl{
+    grid-column: 1;
+    grid-row: 1;
+
+}
+#card-foires-tml{
+    grid-column: 2;
+    grid-row: 1;
+
+}
+#card-foires-tmr{
+    grid-column: 3;
+    grid-row: 1;
+
+}
+#card-foires-tr{
+    grid-column: 4;
+    grid-row: 1;
+}
+
+/*--SECTION 2 - MARCHES HEBO--*/
+#section2-foires{
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+    
+}
+.img-card-foires{
+    width:auto;
+}
+
+#wrapper-marcheshebdo{
+    margin-top: 3em;
+    display:grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-gap: 3rem;
+    grid-auto-rows: auto;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 16px;
+    color: rgb(93,180,74);
+    justify-content: center;
+    padding: 0.2em;
+    
+}
+
+
+#card-foires{
+    justify-content:center;
+}
+.p-card{
+    font-size: 14px;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 300;
+
+}
+
+#card-marches-tl{
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+#card-marches-tml{
+    grid-column: 2;
+    grid-row: 1;
+
+}
+#card-marches-tmr{
+    grid-column: 3;
+    grid-row: 1;
+
+}
+#card-marches-tr{
+    grid-column: 4;
+    grid-row: 1;
+
+}
+
+
+
+/*--SECTION 3 - MARCHES DE NOEL--*/
+#section3-foires{
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+}
+
+#wrapper-marchesnoel{
+    margin-top: 4em;
+    display:grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    grid-auto-rows: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: rgb(198,82,75);
+    justify-content: center;
+    text-align: center;
+    padding: 0.2em;
+    align-items: center;
+    
+}
+#h3-noel{
+    font-family:'Monserrat', sans-serif;
+    font-weight: 200;
+    color:rgb(198,82,75);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+}
+
+#card-marchesnoel-tl{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#card-marchesnoel-tr{
+    grid-column: 2;
+    grid-row: 1;
+}
+#card-foires{
+    justify-content:center;
+}
+.p-card{
+    font-size: 13px;
+
+}
+/*-- END / FOIRES --*/
+
+/*-- ACTUS --*/
+
+#wrapper-actus-htesav{
+    display:grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    grid-auto-rows: minmax (100px, auto);
+    margin-top: 6em;
+    display:grid;
+    width: 100%;
+    height: auto;
+    grid-gap: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(48, 67, 180);
+    justify-content:center;
+    text-align:justify;
+    padding: 0.2em;
+    align-items: center;
+
+
+}
+.card-actus > p{
+    font-family: 'Source Sans 3', serif;
+    font-size: 1.1em;
+}
+.card-actus > span{
+    font-family: 'Source Sans 3', serif;
+    font-size: 1em;
+    color: rgb(198,82,75);
+}
+
+.card-actus{
+    
+
+}
+.h2-card-actus{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.h3-card-actus{
+    font-size:1.1em;
+    font-weight: 500;
+}
+#card-actus-top-left-left{
+    grid-column: 1;
+    grid-row: 1;
+    background: url();
+
+}
+
+#card-actus-top-left{
+    grid-column: 2;
+    grid-row: 1;
+
+}
+#card-actus-top-right-right1{
+    grid-column: 3;
+    grid-row: 1;
+}
+#card-actus-top-right1{
+    grid-column: 1;
+    grid-row: 2;
+}
+#card-actus-top-right-right2{
+    grid-column: 2;
+    grid-row: 2;
+    
+}
+#card-actus-top-right2{
+    grid-column: 3;
+    grid-row: 2;
+    
+}
+/*-- END / ACTUS --*/
+
